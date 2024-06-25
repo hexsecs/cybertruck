@@ -5,10 +5,18 @@ The $5 wrench solution to heavy trucks CAN hacking
 
 Easy solutions for messy problems.
 
-## Discovery
+# Discovery
 
-## Technique #1
+## Tool: Caring Caribou
+
 Using Caring Caribou to discover UDS devices on the CAN network.
 ```
 caringcaribou -i <INTERFACE> uds discovery -min 0x18daf100
 ```
+
+To do an automated UDS discovery you can try something like
+```
+caringcaribou -i <INTERFACE> uds auto -min 0x18daf100 
+```
+Full docs:
+https://github.com/CaringCaribou/caringcaribou/blob/master/documentation/uds.md
