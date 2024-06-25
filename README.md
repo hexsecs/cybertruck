@@ -42,6 +42,15 @@ https://github.com/CaringCaribou/caringcaribou/blob/master/documentation/uds.md
 
 ## Tool: SavvyCAN
 
+# Diagnostics - Unified Diagnostic Services (UDS)
+
+[Automated Threat Evaluation of Autmotive Diagnostic Protocols](https://opus4.kobv.de/opus4-oth-regensburg/frontdoor/deliver/index/docId/2988/file/ESCARPaper.pdf) 
+contains a nice table mapping threats to UDS services.
+
+![](./img/AutomatedThreatEvaluationOfAutomotiveDiagnosticProtocols_Table2.png)
+
+
+
 # Additional Resources
 * [Awesome CANbus](https://github.com/iDoka/awesome-canbus)
 
