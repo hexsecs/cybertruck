@@ -9,6 +9,9 @@ Easy solutions for messy problems.
 
 ## Tool: Caring Caribou
 
+**Link:**
+https://github.com/CaringCaribou/caringcaribou
+
 Using Caring Caribou to discover UDS devices on the CAN network.
 ```
 caringcaribou -i <INTERFACE> uds discovery -min 0x18daf100 -max 0x18daf1ff
@@ -20,3 +23,8 @@ caringcaribou -i <INTERFACE> uds auto -min 0x18daf100 -max 0x18daf1ff
 ```
 Full docs:
 https://github.com/CaringCaribou/caringcaribou/blob/master/documentation/uds.md
+
+
+## Tool: CANCat
+
+## Tool: Scapy
