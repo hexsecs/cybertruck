@@ -11,7 +11,10 @@ A resource for tips, tutorials, and resources for hacking CAN and SAE J1939. It'
 # CAN Tools
 
 ## Tool: PythonCAN
-[Python CAN Tutorial](./pythoncan.md)
+| Documentation | Link |
+|-------------- | -----|
+| Official Docs | https://python-can.readthedocs.io/en/stable/ | 
+| Python CAN Tutorial | [./pythoncan.md](./pythoncan.md) |
 
 ## Tool: Caring Caribou
 
@@ -40,7 +43,7 @@ https://github.com/CaringCaribou/caringcaribou/blob/master/documentation/uds.md
 * [Video: Automotive Pentesting with Scapy](https://www.youtube.com/watch?v=7D7uNqPWrXw)
 
 ## Tool: TruckDevil
-
+[Truck Devil Tutorial](./TruckDevil.md)
 
 ## Tool: SavvyCAN
 
