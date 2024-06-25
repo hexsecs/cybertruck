@@ -8,7 +8,7 @@ Dirty solutions for messy problems.
 ## Discovery
 
 ## Technique #1
-Using Caring Caribou you send discovery request
+Using Caring Caribou to discover UDS devices on the CAN network.
 ```
 caringcaribou -i <INTERFACE> uds discovery -min 0x18daf100
 ```
