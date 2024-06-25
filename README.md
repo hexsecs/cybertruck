@@ -11,7 +11,7 @@ Easy solutions for messy problems.
 # CAN Tools
 
 ## Tool: PythonCAN
-[Python CAN](./pythoncan)
+[Python CAN](./pythoncan.md)
 ## Tool: Caring Caribou
 
 **Link:**
