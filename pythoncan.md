@@ -77,4 +77,4 @@ python your_script_name.py
 
 Make sure to replace `your_script_name.py` with the actual name of your Python script file.
 
-This setup ensures that `python-can` will use `vcan0` as the default CAN interface based on the `.canrc` configuration.
+This example sets `python-can` to use `vcan0` as the default CAN interface based on the `.canrc` configuration. You can change this to can0 or whatever other interface you wish to use.
