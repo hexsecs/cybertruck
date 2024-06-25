@@ -43,4 +43,5 @@ https://github.com/CaringCaribou/caringcaribou/blob/master/documentation/uds.md
 # Reverse Engineering
 
 * [RE Tooling](https://github.com/wtsxDev/reverse-engineering)
+* [Godbolt](https://godbolt.org/) - Compare compilers output online
 * [Dogbolt](https://dogbolt.org/) - Compare decompilers online
