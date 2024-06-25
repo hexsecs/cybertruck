@@ -7,6 +7,7 @@ Easy solutions for messy problems.
 
 # CAN Tools
 
+
 ## Tool: Caring Caribou
 
 **Link:**
@@ -34,3 +35,7 @@ https://github.com/CaringCaribou/caringcaribou/blob/master/documentation/uds.md
 ## Tool: TruckDevil
 
 ## Tool: SavvyCAN
+
+# Additional Resources
+
+* [Awesome CANbus](https://github.com/iDoka/awesome-canbus)
