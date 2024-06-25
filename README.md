@@ -3,7 +3,7 @@ The $5 wrench solution to heavy trucks CAN hacking
 
 ![](https://imgs.xkcd.com/comics/security.png)
 
-A resource for tips, tutorials, and resources for hacking CAN and SAE J1939.
+A resource for tips, tutorials, and resources for hacking CAN and SAE J1939. It's not the most elegant or sophisticated set of tools. But it will get the job done.
 
 # Research
 * [Automated Threat Evaluation of Automotive Diagnostic Protocols](https://www.researchgate.net/publication/351483528_Automated_Threat_Evaluation_of_Automotive_Diagnostic_Protocols) 
