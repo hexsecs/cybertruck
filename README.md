@@ -19,6 +19,8 @@ https://github.com/CaringCaribou/caringcaribou
 Using Caring Caribou to discover UDS devices on the CAN network.
 ```
 caringcaribou -i <INTERFACE> uds discovery -min 0x18daf100 -max 0x18daf1ff
+
+# INTERFACE could be something like vcan0 or can0, etc.
 ```
 
 To do an automated UDS discovery you can try something like
