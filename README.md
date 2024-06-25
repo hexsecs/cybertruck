@@ -11,7 +11,8 @@ A resource for tips, tutorials, and resources for hacking CAN and SAE J1939. It'
 # CAN Tools
 
 ## Tool: PythonCAN
-[Python CAN](./pythoncan.md)
+[Python CAN Tutorial](./pythoncan.md)
+
 ## Tool: Caring Caribou
 
 **Link:**
