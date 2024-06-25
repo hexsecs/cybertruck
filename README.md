@@ -5,7 +5,7 @@ The $5 wrench solution to heavy trucks CAN hacking
 
 Easy solutions for messy problems.
 
-# Discovery
+# CAN Tools
 
 ## Tool: Caring Caribou
 
