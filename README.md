@@ -5,6 +5,9 @@ The $5 wrench solution to heavy trucks CAN hacking
 
 Easy solutions for messy problems.
 
+# Research
+* [Automated Threat Evaluation of Automotive Diagnostic Protocols](https://www.researchgate.net/publication/351483528_Automated_Threat_Evaluation_of_Automotive_Diagnostic_Protocols) 
+
 # CAN Tools
 
 
