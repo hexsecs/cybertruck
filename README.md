@@ -36,6 +36,10 @@ https://github.com/CaringCaribou/caringcaribou/blob/master/documentation/uds.md
 
 ## Tool: SavvyCAN
 
-# Additional Resources
+## Additional Resources
 
 * [Awesome CANbus](https://github.com/iDoka/awesome-canbus)
+
+# Reverse Engineering
+
+* [RE Tooling](https://github.com/wtsxDev/reverse-engineering)
