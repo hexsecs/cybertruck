@@ -11,7 +11,7 @@ Easy solutions for messy problems.
 
 Using Caring Caribou to discover UDS devices on the CAN network.
 ```
-caringcaribou -i <INTERFACE> uds discovery -min 0x18daf100
+caringcaribou -i <INTERFACE> uds discovery -min 0x18daf100 -max 0x18daf1ff
 ```
 
 To do an automated UDS discovery you can try something like
