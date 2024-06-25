@@ -41,7 +41,7 @@ https://github.com/CaringCaribou/caringcaribou/blob/master/documentation/uds.md
 * [Video: Automotive Pentesting with Scapy](https://www.youtube.com/watch?v=7D7uNqPWrXw)
 
 ## Tool: TruckDevil
-[Truck Devil Tutorial](./TruckDevil.md)
+[Truck Devil Tutorial](./truckdevil.md)
 
 ## Tool: SavvyCAN
 
