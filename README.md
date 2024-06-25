@@ -28,3 +28,9 @@ https://github.com/CaringCaribou/caringcaribou/blob/master/documentation/uds.md
 ## Tool: CANCat
 
 ## Tool: Scapy
+
+## Tool: PythonCAN
+
+## Tool: TruckDevil
+
+## Tool: SavvyCAN
