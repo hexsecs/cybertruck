@@ -13,11 +13,11 @@ Add the following content to the `.canrc` file:
 ```ini
 [default]
 interface = socketcan
-channel = vcan0   # This could be can0 or whatever can interface you wish to use
+channel = vcan0
 bitrate = 500000
 ```
 
-This configuration sets `socketcan` as the interface type, `vcan0` as the channel, and a bitrate of `500000`.
+This configuration sets `socketcan` as the interface type, `vcan0` as the channel, and a bitrate of `500000`. Change channel to your interface name like vcan0 or can0.
 
 ### Step 2: Python Script to Use the Configuration
 
