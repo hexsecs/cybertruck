@@ -27,6 +27,12 @@ To do an automated UDS discovery you can try something like
 ```
 caringcaribou -i <INTERFACE> uds auto -min 0x18daf100 -max 0x18daf1ff
 ```
+
+Getting UDS seeds
+```
+caringcaribou uds security_seed 0x03 0x01 0x18da00f1 0x18daf100 -d 0.5 -r1
+```
+
 Full docs:
 https://github.com/CaringCaribou/caringcaribou/blob/master/documentation/uds.md
 
