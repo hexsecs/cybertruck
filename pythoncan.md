@@ -14,6 +14,7 @@ Add the following content to the `.canrc` file:
 [default]
 interface = socketcan
 channel = vcan0
+#channel = can0
 bitrate = 500000
 ```
 
