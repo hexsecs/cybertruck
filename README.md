@@ -7,6 +7,22 @@ A resource for tips, tutorials, and resources for hacking CAN and SAE J1939. It'
 
 # CAN Tools
 
+## Tool: SocketCAN
+
+Getting the USB2CAN-FD 2x up
+```
+sudo ip link set can0 down
+sudo ip link set can0 up type can bitrate 500000 dbitrate 2000000 fd on
+sudo ip link set can1 down
+sudo ip link set can1 up type can bitrate 500000 dbitrate 2000000 fd on
+```
+
+Bringup for USB2Can
+```
+sudo ip link set can0 down
+sudo ip link set can0 up type can bitrate 500000
+```
+
 ## Tool: PythonCAN
 * [Official Docs](https://python-can.readthedocs.io/en/stable/)
 * [Python CAN Tutorial](./pythoncan.md)
