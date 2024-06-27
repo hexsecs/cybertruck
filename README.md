@@ -27,7 +27,7 @@ sudo ip link set can0 up type can bitrate 500000
 #### Example Command
 
 ```bash
-cangen can0 -I 18DA00F9 -D 023E00 -L 8 -g 3000
+cangen can0 -I 18DA00F9 -D 023E00 -L 8 -e -g 3000
 ```
 
 #### Explanation:
@@ -35,6 +35,7 @@ cangen can0 -I 18DA00F9 -D 023E00 -L 8 -g 3000
 - **`-I 18DA00F9`**: Sets the arbitration ID to `0x18DA00F9` (ID for diagnostics).
 - **`-D 18DAF900`**: Sets the data field to `0x3E00` (Tester Present with positive response).
 - **`-L 8`**: Sets the data length to 8 bytes.
+- **`-e`**: Allows extended ID frames. 
 - **`-g 3000`**: Sets the gap between messages to 3000 milliseconds (3 seconds).
 
 #### Command to Suppress Positive Response
@@ -42,7 +43,7 @@ cangen can0 -I 18DA00F9 -D 023E00 -L 8 -g 3000
 If you want to suppress the positive response, you can use `0x3E80` instead:
 
 ```bash
-cangen can0 -I 18DA00F9 -D 023E80 -L 8 -g 3000
+cangen can0 -I 18DA00F9 -D 023E80 -L 8 -e -g 3000
 ```
 
 
