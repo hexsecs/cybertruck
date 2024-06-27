@@ -9,7 +9,7 @@ A resource for tips, tutorials, and resources for hacking CAN and SAE J1939. It'
 
 ## Tool: SocketCAN
 
-Getting the USB2CAN-FD 2x up
+### Getting the USB2CAN-FD 2x up
 ```
 sudo ip link set can0 down
 sudo ip link set can0 up type can bitrate 500000 dbitrate 2000000 fd on
@@ -17,11 +17,35 @@ sudo ip link set can1 down
 sudo ip link set can1 up type can bitrate 500000 dbitrate 2000000 fd on
 ```
 
-Bringup for USB2Can
+### Bringup for USB2Can
 ```
 sudo ip link set can0 down
 sudo ip link set can0 up type can bitrate 500000
 ```
+
+### Send Tester Presents
+#### Example Command
+
+```bash
+cangen can0 -I 18DA00F9 -D 023E00 -L 8 -g 3000
+```
+
+#### Explanation:
+- **`can0`**: The CAN interface (replace with your actual interface name).
+- **`-I 18DA00F9`**: Sets the arbitration ID to `0x18DA00F9` (ID for diagnostics).
+- **`-D 18DAF900`**: Sets the data field to `0x3E00` (Tester Present with positive response).
+- **`-L 8`**: Sets the data length to 8 bytes.
+- **`-g 3000`**: Sets the gap between messages to 3000 milliseconds (3 seconds).
+
+#### Command to Suppress Positive Response
+
+If you want to suppress the positive response, you can use `0x3E80` instead:
+
+```bash
+cangen can0 -I 18DA00F9 -D 023E80 -L 8 -g 3000
+```
+
+
 
 ## Tool: PythonCAN
 * [Official Docs](https://python-can.readthedocs.io/en/stable/)
