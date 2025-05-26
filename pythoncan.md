@@ -1,3 +1,48 @@
+# **Working with `python-can` in Linux**
+
+## **Overview**
+
+`python-can` is a powerful Python library for working with CAN (Controller Area Network) interfaces. It provides a convenient API for sending, receiving, logging, and interpreting CAN messages, and is widely used in vehicle diagnostics, research, and cybersecurity tasks.
+
+This tutorial will walk you through installing, configuring, and using `python-can` on a Linux system with SocketCAN support.
+
+---
+
+## **Learning Objectives**
+
+By the end of this chapter, you will be able to:
+
+* Install and configure `python-can` on a Linux machine
+* Set up a virtual or physical CAN interface using SocketCAN
+* Write and run Python scripts that send and receive CAN messages
+* Understand best practices for logging and analyzing CAN traffic
+
+---
+
+## **1. Prerequisites**
+
+* A Linux system (Ubuntu or Debian-based preferred)
+* `python3` and `pip` installed
+* CAN interface (USB-CAN adapter like PEAK, ValueCAN, or virtual `vcan`)
+
+---
+
+## **2. Installation**
+
+Install the `python-can` package using pip:
+
+```bash
+pip install python-can
+```
+
+To verify installation:
+
+```bash
+python3 -c "import can; print(can.__version__)"
+```
+
+---
+
 To set the default interface to using the `.canrc` configuration file for `python-can`, you need to create or edit the `.canrc` file in your home directory. Here is a step-by-step guide:
 
 ### Step 1: Create or Edit `.canrc`
@@ -80,55 +125,7 @@ Make sure to replace `your_script_name.py` with the actual name of your Python s
 
 This example sets `python-can` to use `vcan0` as the default CAN interface based on the `.canrc` configuration. You can change this to can0 or whatever other interface you wish to use.
 
-
-
-# ** Working with `python-can` in Linux**
-
 ---
-
-## **Overview**
-
-`python-can` is a powerful Python library for working with CAN (Controller Area Network) interfaces. It provides a convenient API for sending, receiving, logging, and interpreting CAN messages, and is widely used in vehicle diagnostics, research, and cybersecurity tasks.
-
-This chapter will walk you through installing, configuring, and using `python-can` on a Linux system with SocketCAN support.
-
----
-
-## **Learning Objectives**
-
-By the end of this chapter, you will be able to:
-
-* Install and configure `python-can` on a Linux machine
-* Set up a virtual or physical CAN interface using SocketCAN
-* Write and run Python scripts that send and receive CAN messages
-* Understand best practices for logging and analyzing CAN traffic
-
----
-
-## **1. Prerequisites**
-
-* A Linux system (Ubuntu or Debian-based preferred)
-* `python3` and `pip` installed
-* CAN interface (USB-CAN adapter like PEAK, ValueCAN, or virtual `vcan`)
-
----
-
-## **2. Installation**
-
-Install the `python-can` package using pip:
-
-```bash
-pip install python-can
-```
-
-To verify installation:
-
-```bash
-python3 -c "import can; print(can.__version__)"
-```
-
----
-
 ## **3. Configuring the CAN Interface**
 
 ### A. Using Virtual CAN (`vcan`) for Testing
@@ -218,7 +215,7 @@ for i in range(10):
 | ------------------------- | ------------------------------------------- |
 | `OSError: No such device` | Interface not set up — check with `ip link` |
 | `can.CanError` on send    | Bus might be down or misconfigured          |
-| No messages received      | Try `candump can0` in another terminal      |
+| No messages received      | Try `candump any` in another terminal      |
 
 ---
 
