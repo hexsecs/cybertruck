@@ -1,9 +1,4 @@
-# fivedollarwrench
-The $5 wrench solution to heavy trucks CAN hacking
-
-![](https://imgs.xkcd.com/comics/security.png)
-
-A resource for tips, tutorials, and resources for hacking CAN and SAE J1939. It's not the most elegant or sophisticated set of tools. But it will get the job done.
+This is the slides and companion material for the CyberTruck CLI Class.
 
 # CAN Tools
 
