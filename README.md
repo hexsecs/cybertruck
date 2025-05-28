@@ -50,7 +50,7 @@ cangen can0 -I 18DA00F9 -D 023E80 -L 8 -e -g 3000
 
 ## Tool: PythonCAN
 * [Official Docs](https://python-can.readthedocs.io/en/stable/)
-* [Python CAN Tutorial](./pythoncan.md)
+* [Python CAN Tutorial](./python-can.md)
 
 ## Tool: Caring Caribou
 
