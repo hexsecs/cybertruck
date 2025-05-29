@@ -1,7 +1,7 @@
 This is the slides and companion material for the CyberTruck CLI Class.
 
 # CAN Tools
-[Tool Comparison](./toolcompare.md)
+[Tool Comparison](./chapters/toolcompare.md)
 
 ## Tool: SocketCAN
 
@@ -46,7 +46,7 @@ cangen can0 -I 18DA00F9 -D 023E80 -L 8 -e -g 3000
 
 ## Tool: PythonCAN
 * [Official Docs](https://python-can.readthedocs.io/en/stable/)
-* [Python CAN Tutorial](./python-can.md)
+* [Python CAN Tutorial](./chapters/python-can.md)
 
 ## Tool: Caring Caribou
 
@@ -81,7 +81,7 @@ https://github.com/CaringCaribou/caringcaribou/blob/master/documentation/uds.md
 * [Video: Automotive Pentesting with Scapy](https://www.youtube.com/watch?v=7D7uNqPWrXw)
 
 ## Tool: TruckDevil
-[Truck Devil Tutorial](./truckdevil.md)
+[Truck Devil Tutorial](./chapters/truckdevil.md)
 
 ## Tool: SavvyCAN
 
