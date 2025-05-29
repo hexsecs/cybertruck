@@ -16,16 +16,18 @@ Here’s a comparison of command-line and GUI tools for **J1939 security researc
 
 ---
 
-## 🔧 Summary Use Case Mapping
+## 🔧 Summary Security Research Use Case Mapping
 
 | Use Case                                  | Recommended Tools                              |
 | ----------------------------------------- | ---------------------------------------------- |
-| **Visual decode of J1939/PGNs**           | Wireshark, SavvyCAN, pretty-j1939              |
+| **J1939/PGNs Message Decode**             | Wireshark, SavvyCAN, pretty-j1939, TruckDevil  |
+| **Message Logging                         | can-utils, SavvyCAN, Wireshark, TruckDevil, Python-can|
+| **Low-level message injection/scripting** | Scapy, can-utils, TruckDevil                   |
 | **PGN fuzzing / injection testing**       | TruckDevil, Scapy, SavvyCAN                    |
 | **UDS SID brute-force or diagnostics**    | Caring Caribou, Scapy                          |
 | **Layered protocol scripting**            | Scapy                                          |
-| **Low-level message injection/scripting** | Scapy, can-utils, TruckDevil                   |
 | **Batch analysis / automated decoding**   | cantools, pretty-j1939, Wireshark, TruckDevil  |
+| **XCP research**                          | Wireshark, Caring Caribou                      |
 
 ---
 
