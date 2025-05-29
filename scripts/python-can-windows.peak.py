@@ -1,6 +1,6 @@
 import can
 
-bus = can.interface.Bus(channel = 'PCAN_USBBUS', interface='pcan', bitrate=500000)
+bus = can.interface.Bus(channel = 'PCAN_USBBUS1', interface='pcan', bitrate=500000)
 print("Connected to PEAK CAN device")
 
 can_id = 0x0CF00331
