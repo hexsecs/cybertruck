@@ -42,6 +42,7 @@ sudo ip link set up can0
 ## 2. 🧪 **Install Wireshark and can-utils**
 
 ```bash
+sudo add-apt-repository ppa:wireshark-dev/stable -y
 sudo apt install wireshark can-utils
 ```
 
