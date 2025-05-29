@@ -4,7 +4,7 @@
 TruckDevil is a framework designed for interacting with and assessing ECUs that use J1939 for communication on the CANBUS.
 
 **Requirements**
-- **Hardware:** Recommended CAN transceiver is Macchina M2. Alternatives include devices supported by python-can (e.g., SocketCAN).
+- **Hardware:** Supports Macchina M2 as well as any python-can device (e.g., SocketCAN).
 - **Software:** Requires Python 3. Additional software for flashing M2 firmware.
 
 **Installation**
