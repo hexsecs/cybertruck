@@ -1,6 +1,7 @@
 This is the slides and companion material for the CyberTruck CLI Class.
 
 # CAN Tools
+[Tool Comparison](./toolcompare.md)
 
 ## Tool: SocketCAN
 
