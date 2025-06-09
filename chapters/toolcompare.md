@@ -5,14 +5,14 @@ Here’s a comparison of command-line and GUI tools for **J1939 security researc
 
 | Tool               | J1939 Support  | Security Usefulness           | Packet Crafting  | Sniffing      | Fuzzing      | Pros                                                       | Cons                                                  |
 | ------------------ | -------------  | ----------------------------- | ---------------- | ------------- | ------------ | ---------------------------------------------------------- | ----------------------------------------------------- |
-| **Caring Caribou** | ✅ Strong      | ✅ UDS brute force, DoS        | ⚠️ Basic scripts | ✅ Yes         | ⚠️ Limited   | Purpose-built for security testing                        | Outdated, limited PGN/J1939 support                   |
+| **Caring Caribou** | ✅ Basic     | ✅ UDS brute force, DoS        | ⚠️ Basic scripts | ✅ Yes         | ⚠️ Limited   | Purpose-built for security testing                        | Outdated, limited PGN/J1939 support                   |
 | **Scapy**          | ⚠️ Manual      | ✅ Custom attacks, fuzzing     | ✅✅ Full stack    | ✅ Yes         | ✅ Scriptable | Full control via Python, layered protocols (CAN/ISOTP/UDS) | Requires custom J1939 definitions, less user-friendly |
 | **TruckDevil**     | ✅ Excellent   | ✅ ECU probing & PGN fuzzing   | ✅ CLI-driven     | ✅ Yes         | ✅ Native     | Built for J1939 & truck ECU testing                        | CLI only, limited documentation                  |
 | **pretty-j1939**   | ✅ Excellent   | ⚠️ Passive only               | ❌                | ✅ piped input | ❌            | Best CLI-based J1939 PGN decoder                           | No fuzzing or message injection                       |
 | **cantools**       | ✅ via DBC     | ⚠️ Passive                    | ⚠️ via DBC       | ✅ File/stream | ❌            | Excellent for DBC decoding & validation                    | Requires DBC files, no attack features                |
-| **can-utils**      | ✅ Basic       | ⚠️ Low-level sniff/send       | ✅ Hex based      | ✅ Yes         | ❌            | Lightweight & fast, great for CLI testing                  | No PGN decoding, no protocol awareness                |
-| **SavvyCAN**       | ✅ Full        | ✅ Visual fuzzing/injection    | ✅ GUI + script   | ✅ GUI/CLI     | ✅ Visual     | Great for reverse engineering, signal tracking, fuzzing    | GUI-heavy, scripting uses Qt/JavaScript               |
-| **Wireshark**      | ✅ Built-in    | ⚠️ Passive + protocol insight | ❌                | ✅ GUI         | ❌            | Excellent decoding, PGN/SPN stats, time analysis           | No crafting or active manipulation                    |
+| **can-utils**      | ✅ Basic       | ⚠️ Low-level sniff/send, quick and dirty       | ✅ Hex based      | ✅ Yes         | ❌            | Lightweight & fast, great for CLI testing                  | No PGN decoding, no protocol awareness                |
+| **SavvyCAN**       | ✅ via DBC       | ✅ Visual fuzzing/injection    | ✅ GUI + script   | ✅ GUI/CLI     | ✅ Visual     | Great for reverse engineering, signal tracking, fuzzing    | GUI-heavy, scripting uses Qt/JavaScript             |
+| **Wireshark**      | ✅ Basic   | ⚠️ Passive + protocol insight | ❌                | ✅ GUI         | ❌            | Excellent decoding, PGN/SPN stats, time analysis           | No crafting or active manipulation                    |
 
 ---
 
