@@ -99,7 +99,7 @@ contains a nice table mapping threats to UDS services.
 
 # Research
 * [Automated Threat Evaluation of Automotive Diagnostic Protocols](https://www.researchgate.net/publication/351483528_Automated_Threat_Evaluation_of_Automotive_Diagnostic_Protocols) 
-
+* [Troopers 22 UDS Hacking](https://troopers.de/downloads/troopers22/TR22_UDSFuzzing.pdf)
 
 
 # Reverse Engineering
