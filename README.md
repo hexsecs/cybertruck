@@ -96,6 +96,7 @@ contains a nice table mapping threats to UDS services.
 
 # Additional Resources
 * [Awesome CANbus](https://github.com/iDoka/awesome-canbus)
+* [UDS Tutorial](https://www.csselectronics.com/pages/uds-protocol-tutorial-unified-diagnostic-services)
 
 # Research
 * [Automated Threat Evaluation of Automotive Diagnostic Protocols](https://www.researchgate.net/publication/351483528_Automated_Threat_Evaluation_of_Automotive_Diagnostic_Protocols) 
